@@ -20,4 +20,5 @@ export class ConsumoApiService {
     return this.http.get<any>(`${this.base_url}/character`);
 
   }
+  
 }
